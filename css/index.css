@@ -337,6 +337,10 @@ nav label {
   display: flex;
 }
 
+.oleksandr img {
+  border-radius: 12px 0px 0px 12px;
+}
+
 .oleksandr__container {
   padding: 30px;
 }
@@ -608,7 +612,7 @@ nav label {
 }
 
 /*Desktop-HD*/
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1900px) {
   .header {
     padding: 50px 10% 0px 10%;
   }
@@ -659,6 +663,18 @@ nav label {
   }
   .publications {
     padding: 30px 5% 30px 5%;
+  }
+  .publications__content-cover {
+    width: 513px;
+  }
+}
+/*Desktop-HD-HD*/
+@media screen and (min-width: 2600px) {
+  .publications {
+    padding: 30px 60px 30px 60px;
+  }
+  .publications__content-cover {
+    width: 770px;
   }
 }
 /*Tablet-HD*/
@@ -713,6 +729,10 @@ nav label {
   }
   .publications__content-cover p {
     padding: 0px 30px 0px 30px;
+  }
+  .container-logo img {
+    width: 100%;
+    object-fit: cover;
   }
 }
 /*Tablet-SD*/
@@ -856,7 +876,7 @@ nav label {
     max-width: 80%;
   }
   .container__block {
-    max-width: 500px;
+    max-width: 100%;
   }
   .container__grid-setka {
     grid-template-columns: 1fr;
@@ -904,7 +924,7 @@ nav label {
     font-size: 30px;
   }
   .publications {
-    padding: 30px;
+    padding: 5%;
   }
   .publications__content {
     grid-template-columns: 1fr;
@@ -921,7 +941,7 @@ nav label {
     width: 315px;
   }
   #foot__index-mobile {
-    padding: 0px 60px 30px 60px;
+    padding: 0px;
   }
   .foot-adrs {
     display: block;
@@ -939,6 +959,18 @@ nav label {
   }
   .foot__content-block div {
     padding: 10px 0px;
+  }
+  .container__block-consistent {
+    padding: 50px 0px 50px 20px;
+  }
+  .container__grid-h2what h2 {
+    font-size: 30px;
+  }
+  .oleksandr {
+    margin: 30px;
+  }
+  .oleksandr__container-content h1 {
+    font-size: 30px;
   }
 }
 #header-aboutus {
@@ -1437,7 +1469,7 @@ nav label {
   }
   .team__container-grid {
     grid-template-columns: repeat(1, 1fr);
-    padding: 0px 30px;
+    padding: 0px;
     justify-items: center;
   }
   .team__container-grid img {
@@ -1445,6 +1477,9 @@ nav label {
   }
   .team__container-items {
     width: 315px;
+  }
+  .team__container-block {
+    padding: 30px 0px;
   }
 }
 .kobzar__container {
