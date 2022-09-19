@@ -678,7 +678,7 @@ nav label {
   }
 }
 /*Tablet-HD*/
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .container__block-p {
     width: 405px;
   }
